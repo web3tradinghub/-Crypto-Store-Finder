@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+\n# API keys\n.env.local
+!.env.example
+.gemini/
+firebase-debug.log
+test-countries.js
+ui-ux-reference/

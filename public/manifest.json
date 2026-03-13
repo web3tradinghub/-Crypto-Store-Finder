@@ -1,0 +1,37 @@
+{
+  "name": "Crypto Store Finder",
+  "short_name": "CryptoFinder",
+  "description": "Find crypto-accepting merchants powered by WalletConnect Pay",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#00FF94",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["finance", "shopping", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Search Nearby",
+      "url": "/?nearby=true",
+      "description": "Find crypto stores near you"
+    },
+    {
+      "name": "List Your Store",
+      "url": "/merchant",
+      "description": "Register your crypto store"
+    }
+  ]
+}
