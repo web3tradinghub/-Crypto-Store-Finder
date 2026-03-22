@@ -427,23 +427,20 @@ export default function Home() {
       </nav>
 
       <div style={{
-        background: '#000',
-        color: '#00FF94',
-        fontFamily: 'monospace',
-        fontSize: '12px',
-        fontWeight: 'bold',
-        padding: '0',
-        height: '28px',
-        lineHeight: '28px',
-        overflow: 'hidden',
-        whiteSpace: 'nowrap',
         position: 'fixed',
         top: '56px',
         left: 0,
         right: 0,
-        zIndex: 49,
-        borderTop: '1px solid #00FF94',
-        borderBottom: '1px solid #00FF94'
+        zIndex: 48,
+        height: '24px',
+        lineHeight: '24px',
+        overflow: 'hidden',
+        whiteSpace: 'nowrap',
+        background: '#000',
+        color: '#00FF94',
+        fontFamily: 'monospace',
+        fontSize: '11px',
+        borderBottom: '1px solid #00FF9440'
       }}>
         <div style={{
           display: 'inline-block',
@@ -458,7 +455,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pt-16 overflow-hidden">
+      <div className="pt-20 overflow-hidden">
         <Hero />
       </div>
 

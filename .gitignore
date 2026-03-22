@@ -45,3 +45,8 @@ next-env.d.ts
 firebase-debug.log
 test-countries.js
 ui-ux-reference/
+.env
+.env.local
+.env*.local
+*.key
+secrets.json
